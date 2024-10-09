@@ -1,0 +1,35 @@
+name: Deploy Production
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: self-hosted
+
+    strategy:
+      matrix:
+        node-version: [18.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Create .env file
+        run: |
+          touch .env
+          echo VITE_BASE_URL=${{ secrets.VITE_BASE_URL }} >> .env
+          echo VITE_API_KEY=${{ secrets.VITE_API_KEY }} >> .env
+
+      - name: Instala as dependencias
+        run: npm install
+
+      - name: Build project
+        run: npm run build
+
+      - name: Copy files
+        run: cp -R dist/* /home/deploy/www/web

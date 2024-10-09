@@ -1,0 +1,30 @@
+.Modal {
+  position: absolute;
+  width: 45.75rem;
+  background-color: #F8FAFC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+  padding: 8vh 2vw;
+  outline: none;
+  border-radius: 0.875rem;
+  @media (max-width: 780px){
+    width: 95vw;
+    padding: 5vh 2vw;
+    gap: 3vh;
+  }
+}
+
+.Overlay {
+  background: rgba(0, 0, 0, 0.70);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

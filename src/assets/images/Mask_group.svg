@@ -1,0 +1,16 @@
+<svg width="1216" height="332" viewBox="0 0 1216 332" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_931_39" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1216" height="332">
+<rect width="1216" height="332" rx="28" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_931_39)">
+<circle cx="565" cy="166" r="7" fill="white" fill-opacity="0.3"/>
+<circle cx="625" cy="106" r="3" fill="white" fill-opacity="0.3"/>
+<circle cx="635" cy="166" r="5" fill="white" fill-opacity="0.3"/>
+<circle cx="646" cy="224" r="3" fill="white" fill-opacity="0.3"/>
+<circle cx="717" cy="161" r="10" fill="white" fill-opacity="0.3"/>
+<path d="M502 -0.500015C502 -73.5552 442.106 -133 368.5 -133C294.894 -133 235 -73.5552 235 -0.500015V132H368.433C442.106 132 502 72.5551 502 -0.500015Z" fill="white" fill-opacity="0.3"/>
+<path d="M242 329.5C242 256.445 182.106 197 108.5 197C34.8935 197 -25 256.445 -25 329.5V462H108.433C182.106 462 242 402.555 242 329.5Z" fill="white" fill-opacity="0.3"/>
+<path d="M1050 85.5C1050 12.4448 990.106 -47 916.5 -47C842.894 -47 783 12.4448 783 85.5V218H916.433C990.106 218 1050 158.555 1050 85.5Z" fill="white" fill-opacity="0.3"/>
+<path d="M1268 321.5C1268 248.445 1208.11 189 1134.5 189C1060.89 189 1001 248.445 1001 321.5V454H1134.43C1208.11 454 1268 394.555 1268 321.5Z" fill="white" fill-opacity="0.3"/>
+</g>
+</svg>
